@@ -1,0 +1,10 @@
+#alphabetical order
+
+s = "suhana"
+print("Unsorted: ",s)
+
+letters = sorted(s)
+
+result = "".join(letters)
+
+print("Sorted: ",result)
