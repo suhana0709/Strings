@@ -1,0 +1,4 @@
+#program to find the smallest and largest number in a sentence
+sentence = input("Enter a sentence: ")
+print("Largest Number: ",max(sentence.split(), key=len))
+print("Smallest Number: ",min(sentence.split(), key=len))
