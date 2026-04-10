@@ -1,0 +1,9 @@
+#program to remove duplicates
+s = "suhana"
+result = ""
+
+for ch in s:
+    if ch not in result:
+        result = result + ch
+        
+print(result)
