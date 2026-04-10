@@ -1,0 +1,12 @@
+#program to check if smthing is in the other string
+
+s1 = "weather"
+s2 = "The weather today is very windy."
+
+print(s1)
+print(s2)
+
+if s1 in s2:
+    print("\nPresent at index",s2.index(s1))
+else:
+    print("Not Present.")
